@@ -9,4 +9,4 @@ if int(last_digit) > 5:
 elif int(last_digit) < 6 and int(last_digit) != 0:
     print(str1 + str(number) + str2 + last_digit + ' and is less than 6 and not 0')
 else:
-    print(str1 + str(number) + str2 + last_digit + ' and is zero')
+    print(str1 + str(number) + str2 + last_digit + ' and is 0')
