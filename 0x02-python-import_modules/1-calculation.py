@@ -5,12 +5,7 @@ if __name__ == "__main__":
 
     from calculator_1 import sub, add, div, mul,
 
-    add_results = add(a, b)
-    sub_results = sub(a, b)
-    mul_results = mul(a, b)
-    div_results = div(a, b)
-
-    print('{} + {} = {}'.format(a, b, add_results))
-    print('{} - {} = {}'.format(a, b, sub_results))
-    print('{} * {} = {}'.format(a, b, mul_results))
-    print('{} / {} = {}'.format(a, b, div_results))
+    print('{} + {} = {}'.format(a, b, add(a,b)))
+    print('{} - {} = {}'.format(a, b, sub(a, b)))
+    print('{} * {} = {}'.format(a, b, mul(a, b)))
+    print('{} / {} = {}'.format(a, b, div(a, b)))
