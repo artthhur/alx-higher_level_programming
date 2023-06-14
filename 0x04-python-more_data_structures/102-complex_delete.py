@@ -1,14 +1,10 @@
 #!/usr/bin/python3
 
-def weight_average(my_list=[]):
-    if len(my_list) == 0:
-        return 0
+def complex_delete(a_dictionary, value):
+    list_keys = list(a_dictionary.keys())
 
-    sum_product = 0
-    sum_weights = 0
+    for value_dic in list_keys:
+        if value == a_dictionary.get(value_dic):
+            del a_dictionary[value_dic]
 
-    for score, weight in my_list:
-        sum_product += score * weight
-        sum_weights += weight
-
-    return sum_product / sum_weights
+    return a_dictionary
